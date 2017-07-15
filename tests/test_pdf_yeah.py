@@ -14,7 +14,7 @@ def test_web_pdf():
 
 def test_local_pdf():
     base_path = os.path.abspath(os.path.join(os.path.dirname(__file__)))
-    pdfloc = os.path.join(base_path, '..', 'tests', r'20160331_alphabet_10Q.pdf')
+    pdfloc = os.path.join(base_path, '..', 'tests', 'samples', r'20160331_alphabet_10Q.pdf')
     pdf_pages = extract_text(pdfloc)
 
     pg1 = next(pdf_pages)
