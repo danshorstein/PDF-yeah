@@ -1,4 +1,5 @@
 PDF_yeah
+--------
 
 A pythonic way to extract text from pdf files.
 
@@ -12,7 +13,8 @@ text in the pdf file:
 
 .. code-block:: python
 
-  >>> pdf_pages = pdf_yeah.extract_text('https://www.nostarch.com/download/Automate_the_Boring_Stuff_sample_ch17.pdf')
+  >>> path = 'https://www.nostarch.com/download/Automate_the_Boring_Stuff_sample_ch17.pdf'
+  >>> pdf_pages = pdf_yeah.extract_text(path)
   >>> pdf_full_text = [page for page in pdf_pages]
 
 Otherwise it's better to iterate through the generator like so:
