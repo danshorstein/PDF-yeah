@@ -5,6 +5,10 @@ A pythonic way to extract text from pdf files.
 
 Requires requests and pdfplumber. Currently works on Python 3.5.
 
+Installation
+------------
+  >>> pip install https://github.com/danshorstein/PDF-yeah.git
+
 Usage
 -----
 
